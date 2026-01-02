@@ -156,7 +156,7 @@ streamlit run app.py
 http://localhost:8501
 ```
 ---
-📁 Required Files
+## 📁 Required Files
 
 Ensure the following files are present in the project directory:
 
@@ -170,20 +170,23 @@ model_lr_en.pkl
 model_nb_en.pkl
 model_svc_en.pkl
 ---
-📌 Key Takeaways
+
+## 📌 Key Takeaways
 Classical ML models remain highly effective for text classification
 TF-IDF + Logistic Regression is a strong baseline
 Probability calibration is essential for SVMs
 Translation enables practical cross-lingual NLP
 Lightweight models are suitable for real-time deployment
 ---
-🚀 Future Work
+
+## 🚀 Future Work
 Add transformer-based multilingual classifiers
 Extend to more languages
 Cloud deployment (Docker / HuggingFace Spaces)
 Incremental learning with new emails
 ---
-🎓 Academic Use
+
+## 🎓 Academic Use
 This project is suitable for:
 Final Year Project (FYP)
 Machine Learning / NLP coursework
