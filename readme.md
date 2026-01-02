@@ -3,8 +3,8 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
 ![NLP](https://img.shields.io/badge/NLP-TF--IDF%20%7C%20Spam%20Detection-green)
-![License](https://img.shields.io/badge/License-Academic-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/github/license/MuhammadHammad29/DE-Eng-Emails-Spam-Detection)
 
 A multilingual email spam classification system that detects **Spam vs Ham** in **German and English** using classical machine learning models, TF-IDF vectorization, and an optional **cross-lingual translation pipeline**.  
 The system is deployed as an **interactive Streamlit web application**.
