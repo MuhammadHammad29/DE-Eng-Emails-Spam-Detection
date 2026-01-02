@@ -146,13 +146,15 @@ This enables direct comparison of model behavior.
 ### 1️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 2️⃣ Run the app
+```bash
 streamlit run app.py
-
+```
 3️⃣ Open in browser
+```bash
 http://localhost:8501
-
+```
 📁 Required Files
 
 Ensure the following files are present in the project directory:
