@@ -1,4 +1,10 @@
 # 📧 DE/EN Multilingual Spam Classifier
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+![NLP](https://img.shields.io/badge/NLP-TF--IDF%20%7C%20Spam%20Detection-green)
+![License](https://img.shields.io/badge/License-Academic-lightgrey)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 A multilingual email spam classification system that detects **Spam vs Ham** in **German and English** using classical machine learning models, TF-IDF vectorization, and an optional **cross-lingual translation pipeline**.  
 The system is deployed as an **interactive Streamlit web application**.
@@ -160,36 +166,36 @@ http://localhost:8501
 
 Ensure the following files are present in the project directory:
 
-app.py
-tfidf_de.pkl
-tfidf_en.pkl
-model_lr_de.pkl
-model_nb_de.pkl
-model_svc_de.pkl
-model_lr_en.pkl
-model_nb_en.pkl
-model_svc_en.pkl
+- app.py
+- tfidf_de.pkl
+- tfidf_en.pkl
+- model_lr_de.pkl
+- model_nb_de.pkl
+- model_svc_de.pkl
+- model_lr_en.pkl
+- model_nb_en.pkl
+- model_svc_en.pkl
 ---
 
 ## 📌 Key Takeaways
-Classical ML models remain highly effective for text classification
-TF-IDF + Logistic Regression is a strong baseline
-Probability calibration is essential for SVMs
-Translation enables practical cross-lingual NLP
-Lightweight models are suitable for real-time deployment
+- Classical ML models remain highly effective for text classification
+- TF-IDF + Logistic Regression is a strong baseline
+- Probability calibration is essential for SVMs
+- Translation enables practical cross-lingual NLP
+- Lightweight models are suitable for real-time deployment
 ---
 
 ## 🚀 Future Work
-Add transformer-based multilingual classifiers
-Extend to more languages
-Cloud deployment (Docker / HuggingFace Spaces)
-Incremental learning with new emails
+- Add transformer-based multilingual classifiers
+- Extend to more languages
+- Cloud deployment (Docker / HuggingFace Spaces)
+- Incremental learning with new emails
 ---
 
 ## 🎓 Academic Use
 This project is suitable for:
-Final Year Project (FYP)
-Machine Learning / NLP coursework
-Viva and academic presentations
-Demonstration of end-to-end ML systems
+- Final Year Project (FYP)
+- Machine Learning / NLP coursework
+- Viva and academic presentations
+- Demonstration of end-to-end ML systems
 ---
